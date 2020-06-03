@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Lapor</title>
+	<link rel="stylesheet" type="text/css" href="../assets/css/css.css">
+	<!-- Google Fonts -->
+    <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Roboto:400,400italic,300,300italic,500,700' rel='stylesheet' type='text/css'>
+     <!-- Font awesome -->
+    <link href="../assets/css/font-awesome.css" rel="stylesheet">
+    <!-- Bootstrap -->
+    <link href="../assets/css/bootstrap.css" rel="stylesheet"> 
+    <!-- Responsive -->
+    <link rel="stylesheet" type="text/css" href="../assets/css/responsive.css">
+</head>
+<body>
+	<section>
+		<div class="wave wave1">
+			<div class="lapor">
+                <div class="content ">
+                    <h1>Layanan Pengaduan Warga Perumahan Lili</h1>
+                <p class="comment-form-email">Sampaikan laporan Anda langsung kepada Ketua RT Perumahan Lili</p>
+                    <div class="box-body">
+                        <form method="post" action="sendMessage.php" enctype="multipart/form-data">
+                            <div class="form-group row">
+                                <center>
+                                    <label class="col-form-label"><h4  class="box-title"><b>Lapor<i class="fa fa-send"></i></b></h4></label>
+                                </center>
+                                    <div class="">
+                                        <textarea type="text" class="form-control" name="message_text" rows="6" cols="6" placeholder="Silahkan Masukkan Laporan Anda..."></textarea>
+                                    </div>
+                            </div>
+                                <button type="submit" class="btn btn-primary pull-right">Send <i class="fa fa-send"></i></button>
+                                 <i class="fa fa-sign-out"></i> <a href="../index.php">Kembali ke home</a>
+                        </form>
+                    </div>      
+                </div>
+			</div>
+		</div>
+		<div class="wave wave2"></div>
+		<div class="wave wave3"></div>
+		<div class="wave wave4"></div>
+	</section>
+</body>
+</html>

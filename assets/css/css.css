@@ -1,0 +1,113 @@
+*
+{
+	margin: 0;
+	padding: 0;
+}
+
+.lapor{
+	margin-top: -270px;
+	margin-left: 300px;
+	margin-right: 300px;
+	margin-bottom: 300px;
+}
+.lapor h1{
+	font-weight: bold;
+	font-size: 30px;
+	text-align: center;
+}
+
+.lapor p{
+	text-align: center;
+	font-size: 23px;
+}
+
+.form{
+	margin-top: 20px;
+	background-color: white;
+  	box-shadow: 2px 2px 5px 2px #b2bec3;
+  	padding: 10px 10px;
+  	height: 200px;
+}
+
+.form textarea{
+	margin-left: 10px;
+	margin-top: 20px;
+}
+section
+{
+	position: relative;
+	width: 100%;
+	height: 70vh;
+	background: #3586ff;
+	overflow: hidden;
+}
+
+section .wave
+{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 100px;
+	background: url(../img/wave.png);
+	background-size: 1000px 100px;
+}
+section .wave.wave1
+{
+	animation: animate 30s linear infinite;
+	z-index: 10000;
+	opacity: 1;
+	animation-delay: 0s;
+	bottom: 0;
+}
+
+section .wave.wave2
+{
+	animation: animate2 15s linear infinite;
+	z-index: 999;
+	opacity: 0.5;
+	animation-delay: -5s;
+	bottom: 10px;
+}
+
+section .wave.wave3
+{
+	animation: animate 30s linear infinite;
+	z-index: 998;
+	opacity: 0.2;
+	animation-delay: -2s;
+	bottom: 15;
+}
+
+section .wave.wave4
+{
+	animation: animate2 5s linear infinite;
+	z-index: 997;
+	opacity: 0.7;
+	animation-delay: -5s;
+	bottom: 20px;
+}
+
+@keyframes animate
+{
+	0%
+	{
+		background-position-x:0; 
+	}
+	100%
+	{
+		background-position-x:1000px; 
+	}
+}
+
+@keyframes animate2
+{
+	0%
+	{
+		background-position-x:0; 
+	}
+	100%
+	{
+		background-position-x:-1000px; 
+	}
+}
